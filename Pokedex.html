@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pokedex.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <div class="pokedex">
+        <h1>JS Pokédex</h1>
+        <input type="text" id="search-input" placeholder="Enter Pokémon name or number" required>
+        <button id="search-button">Search</button>
+        
+        <div class="screen">
+            <div id="pokemon-img"></div>
+        </div>
+        
+        <div class="pokemon-info">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Base</th>
+                        <th scope="col">Stats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Name</th>
+                        <td id="pokemon-name"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">ID</th>
+                        <td id="pokemon-id"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">HP</th>
+                        <td id="hp"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Attack</th>
+                        <td id="attack"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Defense</th>
+                        <td id="defense"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Speed</th>
+                        <td id="speed"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Special Attack</th>
+                        <td id="special-attack"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Special Defense</th>
+                        <td id="special-defense"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Types</th>
+                        <td id="types"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Weight</th>
+                        <td id="weight"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Height</th>
+                        <td id="height"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script defer src="Pokedex.js"></script>
+    <footer>The API with the Pokemon's data is from &copy; <a href="https://pokeapi-proxy.freecodecamp.rocks" target="_blank">freeCodeCamp</a></footer>
+</body>
+</html>
