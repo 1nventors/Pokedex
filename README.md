@@ -1,7 +1,7 @@
 # RPG Creature Search App 🎮🐉  
-
-This project is part of the **freeCodeCamp Front End Development Libraries Certification**.  
+ 
 The goal was to build an app that allows users to **search for RPG creatures** (in this case, Pokémon) by name or ID and display detailed information retrieved from the **freeCodeCamp RPG Creature API**.  
+This project is part of the **JavaScript Algorithms and Data Structures Certification** from [freeCodeCamp](https://www.freecodecamp.org/). 
 
 ---
 
