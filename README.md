@@ -46,10 +46,3 @@ You can search the name of Pokémon or the ID, please give a try in the Pokédex
 
 ---
 
-## 📜 Certification Requirement  
-
-This is one of the **required projects** to earn the **freeCodeCamp Front End Development Libraries Certification**.  
-It demonstrates knowledge of:  
-- DOM manipulation  
-- Fetching and handling API data  
-- Dynamic UI updates with JavaScript  
