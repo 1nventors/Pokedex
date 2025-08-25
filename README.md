@@ -41,4 +41,4 @@ The app is styled to look like a **Pokédex**, with:
 ---
 
 ## 🎮 Example Interaction  
-You can search the name of Pokemon or the ID, please give a try in the Pokedex [Site](https://1nventors.github.io/Pokedex/)
+You can search the name of Pokémon or the ID, please give a try in the Pokédex [Site](https://1nventors.github.io/Pokedex/)
